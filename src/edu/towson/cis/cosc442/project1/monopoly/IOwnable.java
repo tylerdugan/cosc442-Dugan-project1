@@ -31,9 +31,8 @@ public interface IOwnable {
 	 * Play action.
 	 *
 	 * @param msg the msg
-	 * @return true, if successful
 	 */
-	boolean playAction(String msg);
+	void playAction(String msg);
 
 	/**
 	 * Sets the the owner.

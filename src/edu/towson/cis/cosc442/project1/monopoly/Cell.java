@@ -43,7 +43,7 @@ public abstract class Cell implements IOwnable {
 	 * @see edu.towson.cis.cosc442.project1.monopoly.IOwnable#playAction()
 	 */
 	@Override
-	public abstract boolean playAction(String msg);
+	public abstract void playAction(String msg);
 
 	/**
 	 * Sets the name.
